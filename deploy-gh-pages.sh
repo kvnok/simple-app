@@ -25,7 +25,7 @@ git add .
 git commit -m "Deploy to GitHub Pages"
 
 # Push to the `gh-pages` branch of your GitHub repository
-git push -f git@github.com:kvnok/simple-app.git master:gh-pages
+git push -u origin HEAD:gh-pages
 
 # Clean up
 cd ..
