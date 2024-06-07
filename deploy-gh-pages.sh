@@ -19,10 +19,6 @@ git init
 # Add remote repository
 git remote add origin git@github.com:kvnok/simple-app.git
 
-# Configure Git
-git config user.name "Kevin Kroon"
-git config user.email "kkroon@student.codam.nl"
-
 # Commit all the files
 git add .
 git commit -m "Deploy to GitHub Pages"
