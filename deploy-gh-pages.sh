@@ -16,6 +16,9 @@ docker rm -f extract
 cd dist
 git init
 
+# Add remote repository
+git remote add origin git@github.com:kvnok/simple-app.git
+
 # Configure Git
 git config user.name "Kevin Kroon"
 git config user.email "kkroon@student.codam.nl"
