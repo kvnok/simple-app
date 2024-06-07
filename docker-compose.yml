@@ -10,4 +10,4 @@ services:
       - .:/usr/src/app
     environment:
       NODE_ENV: development
-    command: npx webpack serve --mode development --host 0.0.0.0
+    command: npm run dev
